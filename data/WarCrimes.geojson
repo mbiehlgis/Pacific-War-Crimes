@@ -1,0 +1,294 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Site": "Alexandra Hospital",
+        "Location": "Singapore",
+        "Year": "",
+        "Victims": 200,
+        "Crime": "Massacre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.802482,
+          1.286148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site": "Sook Ching",
+        "Location": "Singapore",
+        "Year": "",
+        "Victims": 70000,
+        "Crime": "Systemic Purge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.833569,
+          2.521947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site": "Manila",
+        "Location": "Philippines",
+        "Year": "",
+        "Victims": 100000,
+        "Crime": "Massacre and Rape"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9822,
+          14.6042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site": "Bataan",
+        "Location": "Philippines",
+        "Year": "",
+        "Victims": 75000,
+        "Crime": "Death March"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.428554,
+          14.723058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site": "Laha Airfield",
+        "Location": "Indonesia",
+        "Year": "",
+        "Victims": 300,
+        "Crime": "Massacre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.176359,
+          -3.686106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site": "Bangka Island",
+        "Location": "Indonesia",
+        "Year": "",
+        "Victims": 85,
+        "Crime": "Massacre and Rape"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.114304,
+          -2.021179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site": "Parit Sulong",
+        "Location": "Malaysia",
+        "Year": "",
+        "Victims": 300,
+        "Crime": "Massacre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.911485,
+          4.481903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site": "Palawan",
+        "Location": "Philippines",
+        "Year": "",
+        "Victims": 139,
+        "Crime": "Massacre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.912084,
+          9.053145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site": "SS Behar",
+        "Location": "Indonesia",
+        "Year": "",
+        "Victims": 36,
+        "Crime": "Massacre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.64527,
+          -10.489873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site": "SS Tjisalak",
+        "Location": "Indian Ocean",
+        "Year": "",
+        "Victims": 105,
+        "Crime": "Massacre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.8785,
+          -12.002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site": "Wake Island",
+        "Location": "Micronesia",
+        "Year": 1943,
+        "Victims": 99,
+        "Crime": "Massacre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          166.644535,
+          19.285663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site": "Faha",
+        "Location": "Guam",
+        "Year": 1944,
+        "Victims": 30,
+        "Crime": "Massacre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.733813,
+          13.427861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site": "Tinta",
+        "Location": "Guam",
+        "Year": 1944,
+        "Victims": 46,
+        "Crime": "Massacre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.703614,
+          13.354173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site": "Shinyo Maru",
+        "Location": "Philippines",
+        "Year": 1944,
+        "Victims": 668,
+        "Crime": "Massacre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.07389,
+          6.91028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site": "Unit 731",
+        "Location": "China",
+        "Year": "1935-1945",
+        "Victims": 12000,
+        "Crime": "Human Experimentation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.624467,
+          45.747647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site": "Chichijima",
+        "Location": "Bonin Islands",
+        "Year": 1944,
+        "Victims": 5,
+        "Crime": "Cannibalism"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.158578,
+          26.652351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site": "Nanking",
+        "Location": "China",
+        "Year": 1937,
+        "Victims": "300,000",
+        "Crime": "Massacre and Rape"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.773596,
+          32.044972
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+            <title>War Crimes in the Pacific</title>
+            <link rel="icon" href="img/JapanIcon.svg">
+
+        <!--stylesheets-->
+        <link rel="stylesheet" href="lib/leaflet/leaflet.css">
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+
+    <body style="background-color: #2A2A2E;">
+
+      <!-- Trigger Warning -->
+        <!-- <div class="alertcontainer">
+          <div class="alert">
+              <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+              <center>TRIGGER WARNING</center>
+              <br>
+              This site contains explicit content that contains graphic and verbal descriptions of war, abuse, violence, and rape.
+              <br>
+              <br>
+              To proceed, please close this pop-up.
+              <br>
+              <br>
+              Please use discretion before proceeding, otherwise please go back to your last page.
+          </div>
+        </div> -->
+
+        <!--BEGINNING OF PAGE-->
+        <div class='mainContainer'>
+
+            <!-- Info Text Container -->
+            <div class='leftContainer'>
+              <center><h3 class="title" id="top">War Crimes in The Pacific:<br>Horrors in the Far East</h3></center>
+
+              <center><h3 class="author">Created By:<br>Michael Biehl</h3></center>
+
+              <h3 class="preamble">One of the greatest failures in education is the outright neglection of history, especially
+                history that continues to heavily impact the world today. A quintessential case of this can be found in how the
+                American education system's learning material on World War II is disproportionately Euro-centric with stark ignorance
+                of how the war raged on in the other half of the world. The periods before and between Pearl Harbor and the atomic bombing
+                of Hiroshima goes entirely untouched. The innate issue with this is that American students are not learning the events
+                and the causes behind them that lead to horrific scenes in the far east, which could in turn pave a path for the world to
+                repeat those mistakes. The interactive is also not represenative of every occurence of a war crime during this time,
+                but only a small sample of them for the sake of starting a conversation about the issue.
+              </h3>
+
+              <h3 class="country">Singapore</h3>
+
+                <p id="A" class="crime">Alexandra Hospital Massacre</p>
+                  <center><img src="img/Alexandra-Hospital2.jpg" style="width:90%"></center>
+                  <br>
+                  <p class="crimetext"><b>February 14th, 1942:</b> On this Saturday afternoon on the grounds of a British Military Hospital Site,
+                    invading Japanese forces encroached on the facility after pushing through British defenses. The hospital itself had already
+                    faced heavy artillery throughout the morning along with internally poor conditions such as low food and water rations, scarce lighting,
+                    an overcapacity of patients, and an inability to properly bury the deceased. When the 1st Japanese soldiers were visible to the hospital
+                    guards, a Red Cross field worker was sent to discuss terms with the Japanese, however he was fired at upon first site despite his attempts
+                    to point out his Red Cross affiliation. The Japanese forces, under the command of General Tomoyuki Yamashita, attacked the hospital for the
+                    next hour going room by room executing, beating, and bayonetting all personnel as well as patients. A projected 50 people were killed in this
+                    first wave of attacks. Afterwards, the remaining 300 victims were forced on a march away from the hospital back towards Japanese controlled
+                    territory, those who fell or were unable to continue walking were executed.
+                    <br>
+                    <center><img src="img/Hospital-Plaque.jpg" style="width:60%; height: 40%;"></center>
+                    <br>
+                    <p class="crimetext">Once the remaining prisoners arrived at the temporary Japanese base, they were separated into groups of approximately 70-80 and locked
+                    in 3 small rooms with hot temperatures and no access to water. As some died overnight to their previous wounds, the following morning some
+                    POWs were let out with the promise of water. However, shortly after they left the room, those that remained report hearing screams out in the
+                    distance, indicating that they were in fact being executed. Before the rest were killed however, the camp was struck by artillery, distracting
+                    the Japanese forces allowing for the escape of some of the POWs. In the end, a total of roughly 150 British POWs along with a handful of local
+                    hospital staff were killed in the massacre.
+                  </p>
+
+                  </p>
+
+                <p id="B" class="crime">Sook Ching Purge</p>
+
+                  <p class="crimetext"><b>February 18th - March 4th 1942:</b> After the surrender of the British in their colonies of Singapore and Malaya in 1942, the
+                    invading Japanese forces set forth on a campaign to purge any suspected anti-Japanese Chinese citizens residing in the newly conquered territory. The systemic purge was
+                    carried out by the Imperial Japanese Army's secret police dubbed the "Kenpeitai". Under the Kenpeitai's rule, several mass executions and tortures
+                    were carried out by their auxiliary enforcement units named the "Hojo Kenpei", however the 3 most notable and infamous were located at Punggol Point,
+                    Changi Beach, and Belakang Mati Beach. Over the course of Japan's occupation of the area, over 30,000 suspected Chinese residents were executed.
+                    <br>
+                    <center><img src="img/sookching.jpg" style="width:70%;"></center>
+                    <br>
+                    <p class="crimetext">
+                      <b>Changi Beach:</b> On February 20th, 1942, the first of the Sook Ching mass killings took place. On this day, 66 Chinese male citizens were rounded up
+                      and marched to the Changi Beach shoreline and executed via firing squad. Along Changi's main road, a suspected 250 more victims were executed in a separate massacre after
+                      the discovery of a mass grave after the war ended. It would mark the beginning of a harsh and brutal occupation for Singapore's Chinese community.
+                      <br>
+                      <br>
+                      <b>Punggol Point:</b> During this event, around 1,000 Chinese residents in the Upper Serangoon neighborhood were forcibly taken from their homes by
+                      the Hojo Kenpei. While nearly 600 were either killed when resisting capture, another 400 were marched to the Punggol Point shoreline and executed
+                      via firing squad. In the decades following the massacre, residents and fishermen who frequented the beach would occasionally discover human bone fragments
+                      and even a skull in one instance.
+                      <br>
+                      <br>
+                      <b>Belakang Mati Beach:</b> In this event, 300 captured British soldiers awaited their transport to Japanese internment camps. While waiting along
+                      the shoreline however, human bodies exhibiting multiple bullet wounds began washing up due to a mass firing squad execution that took place on a Japanese
+                      Naval Vessel. The British were then forced to bury the remains as they awaited their internment.
+                    </p>
+                  </p>
+
+              <h3 class="country">Indonesia</h3>
+
+                <p id="E" class="crime">Laha Airfield Massacre</p>
+
+                  <center><img src="img/LahaNews.png" style="width:70%;"></center>
+
+                  <p class="crimetext"><b>February 1942:</b> Soon after the Battle of Ambon where Japanese forces took what is now present-day Maluku, Indonesia; an estimated
+                    200+ Australian and Dutch POWs were summarily executed and buried in a mass grave. During prosecutions for war criminals after the war, prosecutor Major
+                    Alex Mackay told the court "The Australians were killed in a spirit of revenge." What he inferred was that this specific event was Japanese retaliation
+                    for the deaths of 20 Japanese navy crew members after their vessel struck a mine. Survivors of the attack were in fact a part of the squad that executed
+                    the 200 men.
+                    <br>
+                    <br>
+                    <b id="readmore">To Read More:</b> <a class="external_link" href="http://www.executedtoday.com/2019/02/20/1942-the-laha-massacre/" target="_blank">Click Here</a>
+                  </p>
+
+                <p id="F" class="crime">Bangka Island Massacre</p>
+                  <center><img src="img/BangkaNurses.jpg" style="width:60%;"></center>
+                  <p class="crimetext"><b>February 12th - February 16th 1942:</b> On the eve of the fall of Singapore to Japanese forces, a royal yacht carrying wounded Australian
+                    servicemen, nurses, as well as women and children attempted to escape but was sunk at sea East of Indonesia. Around 100 survivors managed to swim to the nearby Bangka Island,
+                    not knowing the island was already under Japanese control. The officer in command believed the best chance at survival for the survivors was to surrender themselves
+                    to the nearest Japanese encampment. After returning with around 20 Japanese soldiers, all servicemen capable of walking were ordered to walk away with the officers. A repeated
+                    series of gunshots rang out before the 20 Japanese soldiers returned. Upon their return, reports released in 2019 revealed that the soldiers tortured and raped
+                    the nurses before ordering them to tread out into the sea where all but one would be executed by machine gun fire. Once the machine gun fire stopped, the soldiers returned
+                    to bayonet the remaining wounded servicemen on the beach. The only surviving members were Australian Army nurse Sister Vivian Bullwinkle, as well as 2 wounded servicemen.
+                    <br>
+                    <br>
+                    <b id="readmore">To Read More:</b> <a class="external_link" href="https://www.bbc.com/news/world-australia-47796046" target="_blank">Click Here</a>
+                  </p>
+
+                <p id="I" class="crime">SS Behar Massacre</p>
+
+                  <p class="crimetext"><b>March 1944:</b> In early 1944, the Imperial Japanese Navy(IJN) set forth upon a series of naval raids on Allied supply ships under the command of Naomasa Sakonju to try
+                    and hinder ground forces already on land. On March 9th, the IJN struck and sunk the British merchant ship SS Behar, but not before approximately 104 of the Behar's crew abandoned ship.
+                    (It should be noted that attacking a neutral ship is considered a war crime under the Geneva Convention, capturing and unharming them however is not). Soon after, the Japanese warship 'Tone' went out to collect the crew that jumped
+                    overboard and subsequently inprison them. However, this set of events went against Sakonju's initial orders to capture the ship and abandon any non-essential personnel. As a result, the Behar
+                    sent out a distress signal to other Allied ships, forcing the Japanese to retreat from their mission to the Netherlands East Indies. After 2 days, Sakonju ordered the commanding officer of
+                    the Tone, Haruo Mayuzumi, to execute the 104 British crewmembers to try and cover up the attack. Mayuzumi however felt strongly against the killings as he was a practicing Christian, and even
+                    requested Naomasa twice to give the prisoner's mercy. Mayazumi however was sharp in his convictions, and ordered Mayuzumi to obey. That night, Mayuzumi sent 15-34 <em>disputed)</em> of the Behar's officers and the only 2
+                    surviving women to the Japanese ship 'Aoba' to be taken ashore as they would be spared and sent to a POW camp. The remaining 69 men however were executed via beheading by all of the Tone's officers except for Mayuzumi who only
+                    watched from the ship's bridge, refusing to take part in the murder.
+                    <br>
+                    <br>
+                    After the war ended, the Allies prosecuted the Japanese officer's involved in the crime. Sakonju was tried and convicted in Hong Kong by the British and sentenced to death. Mayuzumi
+                    however was onky sentenced to 7 years in prison for his role.
+                    <br>
+                    <br>
+                    <b id="readmore">To Read More:</b> <a class="external_link" href="https://tyneareasc.org.uk/2011/11/688/" target="_blank">Click Here</a>
+                  </p>
+
+                <p id="J" class="crime">SS Tjisalak</p>
+
+                  <p class="crimetext"><b>March 1944:</b> Another massacre at sea in relation to Japan's 1944 naval campaign to raid enemy supply ships was the attack on Dutch merchant ship "SS Tjisilak".
+                    While travelling from Melbourne, Australia to Colombo, Sri Lanka with a mix of Chinese, Dutch, and English seamen plus a handful of passengers and defensive gunners, the SS Tjisilak came into contact with the
+                    Japanese submarine I-8. At 5:45 am, the I-8 struck and sunk the Dutch ship with a torpedo, killing one crewmate instantly and sending the rest to abandon ship and escape to the lifeboats.
+                    The I-8 then emerged from the water and began capturing the some 105 surviving members. While the commanding Dutch officer was being interrogated by the I-8's commander, a Chinese crewmate
+                    slipped into the water and was shot instantly, with the I-8 crew believing an escape was attempted. In turn, the I-8 crew tied the rest of crew in pairs and began to beat them with their
+                    weapons. 4 of the men jumped into the water to escape the torture and miraculously managed to escape despite the subsequent gunfire at them. After the Japanese had killed about 20 of the members,
+                    they bound the rest together with rope and forced them overboard, drowning the rest of the crew.
+                    <br>
+                    <br>
+                    The I-8 would then go on to strike the US Liberty ship the "SS Jean Nicolet", where a similar set of events occurred once more.
+                    <br>
+                    <br>
+                    <b id="readmore">To Read More:</b> <a class="external_link" href="https://ww2today.com/2-july-1944-japanese-massacre-surviving-crew-of-ss-jean-nicolet" target="_blank">Click Here</a>
+                  </p>
+
+              <h3 class="country">China</h3>
+
+                <p id="O" class="crime">Unit 731</p>
+
+                  <center><img src="img/731group.jpg" style="width:80%"></center>
+
+                  <p class="crimetext"><b>March 1944:</b> Based in the Pingfang district of Harbin in Northeast China was the headquarters for what is infamously referred to as "Unit 731".
+                    What began as a routine research and public health agency for Japanese occupied Chinese territory. Over time however, it evolved into a facility designed to
+                    study and weaponize a variety of diseases as well as the study of how much the human body can endure. The way this was accomplished however was via the torture and
+                    exploitation of local Chinese residents and allied POWs.
+                    <br>
+                    <br>
+                    <b>Biological Warfare: </b>One of the primary methods of studying potential biological weapons was the deliberate breeding of plague-infected fleas and the subsequent
+                    aerial release of them over Chinese communities. These mass tests resulted in the deaths numbering in the hundreds of thousands. A potential 12 large-scale field tests
+                    were attacked by Unit 731's biological agents. Some other diseases released to the Chinese populace were Cholera, smallpox, and botulism.
+                    <br>
+                    <br>
+                    <b id="readmore">To Read More:</b> <a class="external_link" href="https://unit731.org/" target="_blank">Click Here</a>
+                    <br>
+                    <br>
+                    <b>Weapons Testing: </b>Along with the myriad of biological tests that went on was the use of prisoners as live test dummies for the Japanese military's weapons
+                    to study their effectiveness on the human bodies. Among the weapons used were bayonets, grenades and other explosives, rifles, and even flamethrowers.
+                    <br>
+                    <img src="img/731.jpg" style="width:100%">
+                    <br>
+                    <br>
+                    <b>Maruta Experiments: </b>One of the most prominent of projects that was orchestrated under Unit 731 went by the code-name <em>Maruta</em>. In this project, test subjects were
+                    gathered from the surrounding communities covering a variety of demographics such as criminals, anti-Japanese resistance members, the homeless, the mentally ill, and anyone
+                    the Kempeitai Secret police rounded up for "suspicious activities". These test subjects were then deliberately injected with deadly diseases under the guise of it being a
+                    vaccination in order to derive the most accurate of data. Along with the direct injection of diseases was the forced intercourse between subjects in order to spread and study
+                    venereal diseases, namely syphillis.
+                    <br>
+                    <br>
+                    <b id="readmore">Watch to Learn More:</b>
+                    <br>
+                    <center>
+                    <div class="iframewrap">
+                      <iframe id="videosource" src="https://www.youtube.com/embed/D4nPxik59oE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    </center>
+                  </p>
+
+                <p id="Q" class="crime">Nanking Massacre</p>
+
+                  <center><img src="img/nanking-atrocities.jpg" style="width:90%"></center>
+
+                  <p class="crimetext"><b>December 1937 - January 1938:</b> Potentially considered the most infamous of Japanese war crimes is commonly referred to as "The Rape of Nanking", which took place after the Imperial Japanese Army
+                    captured the Chinese capital of Nanjing. During this 6-week period, upwards of 200,000 innocent Chinese citizens were tortured, raped, and killed by occupying Japanese soldiers. Being that the event took place over such
+                    an extended period of time, a myriad of various crimes and slaughters took place. A common theme found throughout all of the atrocities however is the absolute lack of humanity from the officers and soldiers present.
+                    <br>
+                    <center><img src="img/nanjing-contest.jpg" style="width:70%"></center>
+                      <p class="crimetext"><b>Massacre Contest: </b>One instance during this horror was the purported "massacre contest" that took place between two Japanese officers by the names of Toshiaki Mukai and Tsuyoshi Noda. The
+                      details of the "contest" they took part in entailed a race to see which of the 2 kill 100 civilians first with a katana. After this initial "round", they realized they had gotten too blood-lusted
+                      and lost count, so they began another round a few minutes later only the goal had now been raised to 150 people. The crime was originally published and framed by Japanese media as a "heroic killing of the Chinese".
+                      After the war, Mukai and Noda were both detained, prosecuted, and executed for their crimes.
+                      <br>
+                      <br>
+                      <b>Mass Rape: </b>Along with the outright massacre of Chinese civilians were the mass rapings that occurred every day and night of the 6 weeks. Japanese soldiers were given free reign to systematically
+                      travel door-to-door to capture, rape, and murder any women, as well as young girls and boys, over the course of this horrific event. There were also multiple cases of soldiers forcing family members to
+                      commit sexual acts upon one another. It wasn't uncommon for the soldiers to mutilate the victims' genitalia with their bayonets or broken shards of glass after assaulting them. Pregnant women also were not
+                      spared from these heinous actions.
+                      <br>
+                      <br>
+                      <b>Lingering Effects: </b>The scale and scope of this atrocity still plays a huge role in Sino-Japanese relations, where some Japanese ultra-nationalists claim the event to have been highly exaggerated, namely
+                      due to how the IJA quickly tried expunging any and evidence of the crime before Japan's surrender in 1945. It took until August 15th, 1995, the 50th anniversary of Japan's surrender for Prime Minister Tomiichi Murayama
+                      to give Japan's first formal apology to the people of China. Despite the presence of a large business and trade relationship between the two nations today, many Chinese citizens are still distrustful of the
+                      Japanese due to their hesitance to admitting their guilt.
+                      <br>
+                      <br>
+                      <b id="readmore">Watch to Learn More:</b>
+                      <br>
+                      </p>
+                    <center>
+                    <div class="iframewrap">
+                      <iframe id="videosource" src="https://www.youtube.com/embed/_CAYFxXBohA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    </center>
+                  </p>
+
+              <h3 class="country">The Philippines</h3>
+
+                <p id="C" class="crime">Manila Massacre</p>
+
+                    <center>
+                    <div class="iframewrap">
+                      <iframe id="videosource" width="560" height="315" src="https://www.youtube.com/embed/y6ok97Q98l4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    </center>
+                    <p class="crimetext"><b>February - March 1945:</b> As Americans campaigned closer and closer to the Japanese homeland, the Philippine islands were slowly but surely being reclaimed by allied forces. The overseer
+                      of all IJA activity in the country, General Tomoyuki Yamashita, even requested an immediate withdrawal of his forces from Manila in January to prevent the now dire situation he and his men faced, but this order was
+                      ignored by his subordinate Rear Admiral Sanji Iwabuchi, who chose to stay along with his 10,000 men. However his forces were quickly outgunned and outmatched by the growing American military presence in the city;
+                      his marines in turn became increasingly angered and hostile, often taking out there frustrations on Filipino civilians in the brief respites between battle.</p>
+                      <br>
+                    <center><img src="img/manila.jpg" style="width:75%"></center>
+                      <br>
+                    <p class="crimetext">The crimes these soldiers inflicted upon these Manila civilians were eerily reminiscent of those committed in Nanking 8 years earlier. Thousands of men, women, and children were tortured
+                      and butchered, often with bayonets. Along with the killings were several mass rapes of women and girls as young as 12 by the Japanese. During the trials of the officers responsible for the killings, it was
+                      revealed that the local Bayview Hotel was designated by the Japanese as a 'Rape Center', where some 25 local Filipino girls were abducted from their homes and kept in the building for officers to repeatedly rape.</p>
+                      <br>
+                    <center>
+                    <div class="row">
+                      <div class="column">
+                        <div class="manilapics">
+                          <img src="img/yamashita.jpg" style="width: 100%">
+                        </div>
+                      </div>
+                      <div class="column">
+                        <div class="manilapics">
+                          <img src="img/manilamarine.jpg" style="padding-top: 20%; width:100%">
+                        </div>
+                      </div>
+                    </div>
+                    </center>
+                      <br>
+                    <p class="crimetext">Despite these atrocities taking place under the command of Rear Admiral Iwabuchi, it was General Yamashita who was convicted and put on trial for the war crimes that took place.
+                      However, there existed no evidence that Yamashita committed any crimes, ordered them to happen, or had the capability to stop them. Regardless, General MacArthur and 5 other generals chose to hold
+                      him accountable since he was in command of all Japanese troops at the time. A group of American military lawyers tried to defend Yamashita by appealing to the Supreme Court who ultimately rejected
+                      the appeal 5-2. Yamashita was executed by hanging February 23rd, 1946 in Manila.
+                      <br>
+                      <br>
+                    <b id="readmore">To Read More:</b> <a class="external_link" href="https://en.wikipedia.org/wiki/Manila_massacre" target="_blank">Click Here</a>
+                    </p>
+
+                <p id="D" class="crime">Bataan Death March</p>
+
+                <p id="H" class="crime">Palawan Massacre</p>
+
+                    <p class="crimetext"><b>February - March 1945:</b> As Americans campaigned closer and closer to the Japanese homeland, the Philippine islands were slowly but surely being reclaimed by allied forces. The overseer
+                      of all IJA activity in the country, General Tomoyuki Yamashita, even requested an immediate withdrawal of his forces in January to prevent the now dire situation he and his men faced.
+                      <br>
+                      <br>
+                      <b id="readmore">Watch to Learn More:</b>
+                      <br>
+                      </p>
+                    <center>
+                    <div class="iframewrap">
+                      <iframe id="videosource" width="560" height="315" src="https://www.youtube.com/embed/EdX1ZbyqiGE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    </div>
+                    </center>
+                    </p>
+
+                <p id="N" class="crime">Shinyo Maru Massacre</p>
+
+              <h3 class="country">Malaysia</h3>
+
+                <p id="G" class="crime">Parit Sulong Massacre</p>
+
+              <h3 class="country">Micronesia</h3>
+
+                <p id="K" class="crime">Wake Island Massacre</p>
+
+              <h3 class="country">Guam</h3>
+
+                <p id="M" class="crime">Faha Massacre</p>
+
+                <p id="N" class="crime">Tinta Massacre</p>
+
+              <h3 class="country">Bonin Islands</h3>
+
+                <p id="P" class="crime">Chichijima Massacre</p>
+
+              <h3 class="country">Sources:</h3>
+
+                <p class="crime">Source</p>
+
+
+                <!-- BACK TO TOP BUTTON -->
+                <div id="back-to-top-container">
+                    <div id="back-to-top-panel" style="background-color: none;">
+                      <center>
+                      <div id="back-to-top-row" style="background-color: none">
+                        <center>
+                          <div id="mobile-toc-column">
+                            <a href="#top">
+                                <img src="img/UpArrow.svg" style="width:80% fill:#800000">
+                            </a>
+                          </div>
+                        </center>
+                      </div>
+                      </center>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- MAP CONTAINER -->
+            <div id="mapid"></div>
+
+        </div>
+
+        <!--put your external script links here-->
+        <!-- <script type="text/javascript" src="js/main3.js"></script> -->
+
+    </body>
+
+    <script type="text/javascript" src="lib/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="lib/leaflet/leaflet.js"></script>
+    <script type="text/javascript" src="js/main4.js"></script>
+
+
+
+</html>

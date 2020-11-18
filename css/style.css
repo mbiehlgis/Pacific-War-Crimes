@@ -1,0 +1,346 @@
+html {
+  scroll-behavior: smooth !important;
+}
+
+.mainContainer {
+  overflow: hidden;
+}
+
+
+/* -------- MAP -------- *//* -------- MAP -------- *//* -------- MAP -------- *//* -------- MAP -------- */
+#mapid {
+  position: relative;
+  float: right;
+  flex: 70%;
+  width: 70%;
+  height: 97.5vh;
+  border: 3px solid white;
+  border-radius: 0px;
+  overflow-x: none;
+  margin-left: 0;
+  padding-left: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  z-index: 1;
+}
+
+.leaflet-popup-content p {
+    margin: 0.2em 0;
+}
+
+.leaflet-popup-content-wrapper {
+  /* background: #FF69B4; */
+  background: #800000;
+  box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+  border: white;
+  opacity: 90%
+}
+
+/* offsetting popup */
+.leaflet-popup {top: -65px !important;}
+
+.leaflet-popup-tip-container {
+   top: 46px !important;
+}
+
+.leaflet-popup-content-wrapper {
+  color: white;
+  font: 13px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.leaflet-control-zoom.leaflet-bar.leaflet-control,
+.leaflet-touch.leaflet-bar {
+  padding-top: 850px;
+  border: 1px;
+  padding-right: 75px;
+}
+
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+  width: 500% !important;
+  height: 30px !important;
+}
+
+.leaflet-touch.leaflet-control-layers,
+.leaflet-touch.leaflet-bar {
+  padding-top: 300px;
+}
+
+.leaflet-bar {
+  box-shadow:none ;
+}
+
+.leaflet-bar a {
+  background-color: #800000;
+  color: white;
+  opacity: 90%;
+}
+
+.leaflet-bar a.leaflet-disabled {
+  background-color: #800000;
+  color: white;
+  opacity: 90%;
+}
+
+.leaflet-interactive:hover {
+  fill: yellow !important;
+  transition: .1s ease;
+}
+
+/* POP-UPS */
+
+.TooltipClass {
+  background: #800000;
+  color: white;
+  opacity: .8 !important;
+}
+
+/* -------- INFO PANEL -------- *//* -------- INFO PANEL -------- *//* -------- INFO PANEL -------- */
+.leftContainer {
+  position: absolute;
+  float: left;
+  flex: 100%;
+  max-width: 100%;
+  width: 30%;
+  height: 97.5vh;
+  border: 3px solid white;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin-left: 0;
+  padding-left: 0;
+  margin-right: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  z-index: 1;
+  /* -ms-overflow-style: none; */
+}
+
+.title {
+  color: white;
+  font-size: 28pt;
+  line-height: 150%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.author {
+  position: relative;
+  color: white;
+  font-size: 13pt;
+  line-height: 130%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  bottom: 35px;
+}
+
+.preamble {
+  position: relative;
+  color: white;
+  font-size: 13pt;
+  line-height: 200%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  bottom: 35px;
+  padding-left: 20px;
+  padding-right: 40px;
+}
+
+.country {
+  color: white;
+  font-size: 20pt;
+  line-height: 200%;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 15px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  text-decoration: underline;
+}
+
+.crime {
+  color: white;
+  font-size: 16pt;
+  line-height: 200%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  padding-left: 35px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  letter-spacing: 3pt;
+}
+
+.crimetext {
+  color: white;
+  font-size: 13pt;
+  line-height: 200%;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+}
+
+b {
+  font-size: 15pt;
+}
+
+#readmore {
+  color: red;
+  font-size: 15pt;
+  opacity: 60%;
+  letter-spacing: 3pt;
+}
+
+.external_link {
+  color: white !important;
+  font-size: 14pt;
+  text-decoration: none;
+  opacity: 80%
+}
+
+a:hover {
+  color: red !important;
+  opacity: 60%;
+  transition: .2s ease;
+  text-decoration: underline;
+}
+
+
+/* VIDEOS */
+
+#videosource {
+  border-radius: 10px;
+  border-color: #800000;
+  border-width: 6px;
+  height: 300px;
+  width: 440px;
+}
+
+/* PICTURES */
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column {
+  float: left;
+  width: 45%;
+  padding-left: 15px;
+}
+
+.manilapics {
+  display: inline-block;
+  width: auto;
+}
+
+
+
+/* BACK TO TOP BUTTON */
+
+#back-to-top-container {
+  padding-left: 0px;
+}
+
+#back-to-top-panel {
+  width: 15% !important;
+  height: 20vh !important;
+  position: fixed;
+  z-index: 5 !important;
+  overflow-x: none !important;
+  bottom: -11% !important;
+  pointer-events: none;
+  padding-left: 25%;
+  padding-right: 5%;
+}
+
+#back-to-top-panel :hover{
+  opacity: 80%;
+  transition: .4s;
+}
+
+
+#back-to-top-row {
+  background-color: none !important;
+}
+
+#mobile-toc-column {
+  float: left;
+  width: 20%;
+  padding: 5px;
+  visibility: visible !important;
+  pointer-events: all !important;
+  background-color: none !important;
+}
+
+#back-to-top-column img:active {
+  opacity: .4 !important;
+  transition: .2s ease !important;
+}
+
+/* Warning Alert */
+/* The alert message box */
+.alert {
+  padding: 20px;
+  background-color: #800000;
+  color: white;
+  margin-bottom: 15px;
+  z-index: 2;
+  width: 800pt;
+  height: 250pt;
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25pt;
+  border-radius: 10px;
+  border-color: #fff;
+  border-width: 10px;
+  top: 25%;
+  left: 20%;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
+
+/* .body-text {
+  max-width: 100%;
+  height: 80vh;
+  flex: 100%;
+  border: 3px solid white;
+  border-radius: 10px;
+  background-color: #E0E0E0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding-right: 17px;
+  margin-right: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  scrollbar-width: .3;
+  -ms-overflow-style: none
+} */
+
+/* #mapid {
+  position: relative;
+  float: right;
+  flex: 66%;
+  width: 66%;
+  height: 80vh;
+  border: 3px solid white;
+  border-radius: 10px;
+  margin-left: 0;
+  padding-left: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+} */
