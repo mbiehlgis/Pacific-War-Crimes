@@ -183,9 +183,9 @@ b {
 }
 
 #readmore {
-  color: red;
+  color: orange;
   font-size: 15pt;
-  opacity: 60%;
+  /* opacity: 60%; */
   letter-spacing: 1pt;
 }
 
@@ -193,12 +193,30 @@ b {
   color: white !important;
   font-size: 14pt;
   text-decoration: none;
-  opacity: 80%
+  /* opacity: 80%; */
+}
+
+.sources {
+  font-family: 'roboto', sans-serif;
+  font-size: 25pt;
+  padding-left: 10px;
+  padding-top: 35px;
+}
+
+.pagelink {
+  text-decoration: none;
+  color: white;
+}
+
+#sourcepanel {
+  background-color: #708090;
+  height: 100px;
+  bottom: 0px;
 }
 
 a:hover {
-  color: red !important;
-  opacity: 60%;
+  color: orange !important;
+  /* opacity: 60%; */
   transition: .2s ease;
   text-decoration: underline;
 }

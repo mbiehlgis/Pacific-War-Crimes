@@ -1,0 +1,36 @@
+html {
+  scroll-behavior: smooth !important;
+}
+
+.mainContainer {
+  overflow: hidden;
+}
+
+.title {
+  font-size: 20pt;
+  text-align: left;
+  color: white;
+}
+
+.country {
+  color: white;
+  font-size: 28pt;
+  line-height: 200%;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 15px;
+  padding-right: 20px;
+  letter-spacing: 4pt;
+  text-decoration: underline;
+}
+
+.crime {
+  color: white;
+  font-size: 20pt;
+  line-height: 200%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  padding-left: 35px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  letter-spacing: 3pt;
+}
