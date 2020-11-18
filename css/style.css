@@ -216,6 +216,12 @@ a:hover {
 
 /* PICTURES */
 
+#caption {
+  font-size: 10pt;
+  font-family: 'Roboto', sans-serif !important;
+  color: white;
+}
+
 .row::after {
   content: "";
   clear: both;
@@ -228,7 +234,7 @@ a:hover {
   padding-left: 15px;
 }
 
-.manilapics {
+.crimepics {
   display: inline-block;
   width: auto;
 }
