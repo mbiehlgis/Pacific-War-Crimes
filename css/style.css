@@ -147,18 +147,18 @@ html {
 
 .country {
   color: white;
-  font-size: 20pt;
+  font-size: 28pt;
   line-height: 200%;
   font-family: 'Roboto', sans-serif;
   padding-left: 15px;
   padding-right: 20px;
-  padding-bottom: 10px;
+  letter-spacing: 4pt;
   text-decoration: underline;
 }
 
 .crime {
   color: white;
-  font-size: 16pt;
+  font-size: 20pt;
   line-height: 200%;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
@@ -186,7 +186,7 @@ b {
   color: red;
   font-size: 15pt;
   opacity: 60%;
-  letter-spacing: 3pt;
+  letter-spacing: 1pt;
 }
 
 .external_link {
