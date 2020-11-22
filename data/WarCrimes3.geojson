@@ -214,7 +214,7 @@
       "type": "Feature",
       "id": "LL",
       "properties": {
-        "Site": "Faha",
+        "Site": "Faha and Tinta",
         "Location": "Guam",
         "Year": 1944,
         "Victims": 30,
@@ -233,18 +233,18 @@
       "type": "Feature",
       "id": "MM",
       "properties": {
-        "Site": "Tinta",
-        "Location": "Guam",
+        "Site": "Seoul",
+        "Location": "South Korea",
         "Year": 1944,
         "Victims": 46,
-        "Crime": "Massacre",
+        "Crime": "Rape Center",
         "id": "MM"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.703614,
-          13.354173
+          127.009676,
+          37.539619
         ]
       }
     },

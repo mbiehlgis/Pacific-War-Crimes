@@ -115,7 +115,7 @@ function createSymbols(data, attributes){
     });
 
     document.querySelector(".MM").addEventListener("click", function() {
-      window.location.href = "#M";
+      window.location.href = "#R";
     });
 
     document.querySelector(".NN").addEventListener("click", function() {
