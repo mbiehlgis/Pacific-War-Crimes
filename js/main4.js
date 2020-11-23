@@ -115,7 +115,7 @@ function createSymbols(data, attributes){
     });
 
     document.querySelector(".MM").addEventListener("click", function() {
-      window.location.href = "#R";
+      window.location.href = "#M";
     });
 
     document.querySelector(".NN").addEventListener("click", function() {
@@ -183,7 +183,7 @@ function pointToLayer(feature, latlng, attributes){
 function createPopupContent(properties, attribute){
 
     // variable is equal to a string and the property in the data that relates to it
-    var popupContent = "<p><b>Site Name:</b> " + properties.Site + "</p>";
+    var popupContent = "<center><p><b>Site Name:</b> " + properties.Site + "</p></center>" + "<br>" + "<p id='tiptext'><b>War Crime(s):</b> " + properties.Crime + "<br>" + "<p><b>Number of Victims:</b> " + properties.Victims + "</p>";
 
     //returns the variable
     return popupContent;

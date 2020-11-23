@@ -26,6 +26,7 @@ html {
 
 .leaflet-popup-content p {
     margin: 0.2em 0;
+    font-size: 12pt;
 }
 
 .leaflet-popup-content-wrapper {
@@ -35,6 +36,7 @@ html {
   border: white;
   opacity: 90%
 }
+
 
 /* offsetting popup */
 .leaflet-popup {top: -65px !important;}
@@ -87,12 +89,26 @@ html {
   transition: .1s ease;
 }
 
+.leaflet-interactive:active {
+  fill: yellow !important;
+}
+
 /* POP-UPS */
 
 .TooltipClass {
   background: #800000;
   color: white;
   opacity: .8 !important;
+  font-size: 14pt;
+  width: 340px;
+}
+
+#tiptext {
+  line-height: 20pt;
+}
+
+.leaflet-tooltip-pane, br {
+  line-height: 0px;
 }
 
 /* -------- INFO PANEL -------- *//* -------- INFO PANEL -------- *//* -------- INFO PANEL -------- */
@@ -131,6 +147,19 @@ html {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   bottom: 35px;
+}
+
+.intro {
+  position: relative;
+  color: white;
+  font-size: 15pt;
+  line-height: 200%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  padding-left: 20px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  top: 0px;
 }
 
 .preamble {
@@ -210,7 +239,7 @@ b {
 
 #sourcepanel {
   background-color: #708090;
-  height: 100px;
+  height: 105px;
   bottom: 0px;
 }
 

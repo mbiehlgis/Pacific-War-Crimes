@@ -8,7 +8,7 @@
         "Site": "Alexandra Hospital",
         "Location": "Singapore",
         "Year": "",
-        "Victims": 200,
+        "Victims": "150",
         "Crime": "Massacre",
         "id": "AA"
       },
@@ -27,7 +27,7 @@
         "Site": "Sook Ching",
         "Location": "Singapore",
         "Year": "",
-        "Victims": 70000,
+        "Victims": "70,000",
         "Crime": "Systemic Purge",
         "id": "BB"
       },
@@ -46,8 +46,8 @@
         "Site": "Manila",
         "Location": "Philippines",
         "Year": "",
-        "Victims": 100000,
-        "Crime": "Massacre and Rape",
+        "Victims": "100,000",
+        "Crime": "Massacre/Rape",
         "id": "CC"
       },
       "geometry": {
@@ -65,7 +65,7 @@
         "Site": "Bataan",
         "Location": "Philippines",
         "Year": "",
-        "Victims": 75000,
+        "Victims": "80,000",
         "Crime": "Death March",
         "id": "DD"
       },
@@ -84,7 +84,7 @@
         "Site": "Laha Airfield",
         "Location": "Indonesia",
         "Year": "",
-        "Victims": 300,
+        "Victims": "200",
         "Crime": "Massacre",
         "id": "EE"
       },
@@ -103,8 +103,8 @@
         "Site": "Bangka Island",
         "Location": "Indonesia",
         "Year": "",
-        "Victims": 85,
-        "Crime": "Massacre and Rape",
+        "Victims": "97",
+        "Crime": "Massacre/Rape",
         "id": "FF"
       },
       "geometry": {
@@ -122,7 +122,7 @@
         "Site": "Parit Sulong",
         "Location": "Malaysia",
         "Year": "",
-        "Victims": 300,
+        "Victims": "300",
         "Crime": "Massacre",
         "id": "GG"
       },
@@ -141,7 +141,7 @@
         "Site": "Palawan",
         "Location": "Philippines",
         "Year": "",
-        "Victims": 139,
+        "Victims": "139",
         "Crime": "Massacre",
         "id": "HH"
       },
@@ -160,7 +160,7 @@
         "Site": "SS Behar",
         "Location": "Indonesia",
         "Year": "",
-        "Victims": 36,
+        "Victims": "69",
         "Crime": "Massacre",
         "id": "II"
       },
@@ -179,7 +179,7 @@
         "Site": "SS Tjisalak",
         "Location": "Indian Ocean",
         "Year": "",
-        "Victims": 105,
+        "Victims": "105",
         "Crime": "Massacre",
         "id": "JJ"
       },
@@ -198,7 +198,7 @@
         "Site": "Wake Island",
         "Location": "Micronesia",
         "Year": 1943,
-        "Victims": 99,
+        "Victims": "99",
         "Crime": "Massacre",
         "id": "KK"
       },
@@ -217,7 +217,7 @@
         "Site": "Faha and Tinta",
         "Location": "Guam",
         "Year": 1944,
-        "Victims": 30,
+        "Victims": "60",
         "Crime": "Massacre",
         "id": "LL"
       },
@@ -236,7 +236,7 @@
         "Site": "Seoul",
         "Location": "South Korea",
         "Year": 1944,
-        "Victims": 46,
+        "Victims": "150,000",
         "Crime": "Rape Center",
         "id": "MM"
       },
@@ -255,7 +255,7 @@
         "Site": "Shinyo Maru",
         "Location": "Philippines",
         "Year": 1944,
-        "Victims": 668,
+        "Victims": "668",
         "Crime": "Massacre",
         "id": "NN"
       },
@@ -274,7 +274,7 @@
         "Site": "Unit 731",
         "Location": "China",
         "Year": "1935-1945",
-        "Victims": 12000,
+        "Victims": "200,000",
         "Crime": "Human Experimentation",
         "id": "OO"
       },
@@ -293,8 +293,8 @@
         "Site": "Chichijima",
         "Location": "Bonin Islands",
         "Year": 1944,
-        "Victims": 5,
-        "Crime": "Cannibalism",
+        "Victims": "8",
+        "Crime": "Cannibalism/Massacre",
         "id": "PP"
       },
       "geometry": {
@@ -312,8 +312,8 @@
         "Site": "Nanking",
         "Location": "China",
         "Year": 1937,
-        "Victims": "300,000",
-        "Crime": "Massacre and Rape",
+        "Victims": "250,000",
+        "Crime": "Genocide/Rape",
         "id": "QQ"
       },
       "geometry": {

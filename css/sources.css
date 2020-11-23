@@ -7,30 +7,51 @@ html {
 }
 
 .title {
-  font-size: 20pt;
-  text-align: left;
+  font-size: 30pt;
   color: white;
+  font-family: 'robot', sans-serif;
 }
 
 .country {
-  color: white;
+  color: orange;
   font-size: 28pt;
-  line-height: 200%;
   font-family: 'Roboto', sans-serif;
   padding-left: 15px;
   padding-right: 20px;
-  letter-spacing: 4pt;
   text-decoration: underline;
 }
 
 .crime {
   color: white;
   font-size: 20pt;
-  line-height: 200%;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   padding-left: 35px;
   padding-right: 20px;
-  padding-bottom: 10px;
-  letter-spacing: 3pt;
+}
+
+.source {
+  color: white;
+  font-size: 20pt;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  padding-left: 50px;
+  padding-right: 20px;
+  line-height: 50pt;
+}
+
+.external_link {
+  color: white !important;
+  font-size: 14pt;
+  text-decoration: none;
+  padding-left: 80px;
+  line-height: 30pt;
+  /* opacity: 80%; */
+}
+
+a:hover {
+  color: orange !important;
+  /* opacity: 60%; */
+  transition: .2s ease;
+  text-decoration: underline;
 }
