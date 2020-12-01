@@ -332,6 +332,10 @@ a:hover {
 
 /* Warning Alert */
 /* The alert message box */
+#trigger {
+  text-decoration: underline;
+}
+
 .alert {
   padding: 20px;
   background-color: #800000;
@@ -341,8 +345,8 @@ a:hover {
   width: 800pt;
   height: 275pt;
   position: absolute;
-  font-family: 'Roboto', sans-serif;
-  font-size: 25pt;
+  font-family: 'Futura', sans-serif;
+  font-size: 23pt;
   border-radius: 10px;
   border-color: #fff;
   border-width: 10px;
